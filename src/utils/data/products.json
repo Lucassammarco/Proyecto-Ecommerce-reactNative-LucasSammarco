@@ -1,0 +1,953 @@
+[   {
+    "id": 0,
+    "title": "Mesa Plegable para Camping",
+    "description": "Mesa compacta y plegable, ideal para disfrutar de comidas y actividades en tu campamento de pesca.",
+    "price": 39.99,
+    "discountPercentage": 8,
+    "rating": 4.7,
+    "stock": 45,
+    "brand": "CampTable",
+    "category": "Equipo de Camping",
+    "thumbnail": "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/50/1.jpg",
+      "https://i.dummyjson.com/data/products/50/2.jpg",
+      "https://i.dummyjson.com/data/products/50/3.jpg",
+      "https://i.dummyjson.com/data/products/50/4.jpg",
+      "https://i.dummyjson.com/data/products/50/thumbnail.jpg"
+    ]
+  },
+    {
+      "id": 1,
+      "title": "Excursión de Pesca en Alta Mar",
+      "description": "Una emocionante aventura de pesca en alta mar. ¡Captura peces gigantes!",
+      "price": 199.99,
+      "discountPercentage": 10,
+      "rating": 4.7,
+      "stock": 30,
+      "brand": "Adventure Fishing",
+      "category": "Excursiones de Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/4.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Caña de Pescar Pro-X",
+      "description": "Caña de pescar profesional diseñada para capturar los peces más grandes.",
+      "price": 129.99,
+      "discountPercentage": 15.5,
+      "rating": 4.8,
+      "stock": 50,
+      "brand": "FishMaster",
+      "category": "Cañas de Pescar",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/2/1.jpg",
+        "https://i.dummyjson.com/data/products/2/2.jpg",
+        "https://i.dummyjson.com/data/products/2/3.jpg",
+        "https://i.dummyjson.com/data/products/2/4.jpg",
+        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Carrete Profesional FishElite",
+      "description": "Carrete de pesca de alta calidad para los pescadores más exigentes.",
+      "price": 89.99,
+      "discountPercentage": 12,
+      "rating": 4.5,
+      "stock": 25,
+      "brand": "FishElite",
+      "category": "Carretes",
+      "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/3/1.jpg",
+        "https://i.dummyjson.com/data/products/3/2.jpg",
+        "https://i.dummyjson.com/data/products/3/3.jpg",
+        "https://i.dummyjson.com/data/products/3/4.jpg",
+        "https://i.dummyjson.com/data/products/3/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Señuelo RealisticFish",
+      "description": "Set de señuelos realistas que imitan a peces reales. Aumenta tus posibilidades de captura.",
+      "price": 14.99,
+      "discountPercentage": 8,
+      "rating": 4.2,
+      "stock": 100,
+      "brand": "RealFish",
+      "category": "Señuelos",
+      "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/4/1.jpg",
+        "https://i.dummyjson.com/data/products/4/2.jpg",
+        "https://i.dummyjson.com/data/products/4/3.jpg",
+        "https://i.dummyjson.com/data/products/4/4.jpg",
+        "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Anzuelos Resistentes",
+      "description": "Anzuelos de alta resistencia ideales para la pesca de peces grandes.",
+      "price": 9.99,
+      "discountPercentage": 5,
+      "rating": 4.6,
+      "stock": 150,
+      "brand": "StrongHook",
+      "category": "Anzuelos y Accesorios",
+      "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/5/1.jpg",
+        "https://i.dummyjson.com/data/products/5/2.jpg",
+        "https://i.dummyjson.com/data/products/5/3.jpg",
+        "https://i.dummyjson.com/data/products/5/4.jpg",
+        "https://i.dummyjson.com/data/products/5/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Caja de Almacenamiento para Señuelos",
+      "description": "Caja resistente y organizada para almacenar tus señuelos de pesca.",
+      "price": 24.99,
+      "discountPercentage": 12,
+      "rating": 4.9,
+      "stock": 40,
+      "brand": "TackleBox",
+      "category": "Cajas y Bolsas para Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/6/1.jpg",
+        "https://i.dummyjson.com/data/products/6/2.jpg",
+        "https://i.dummyjson.com/data/products/6/3.jpg",
+        "https://i.dummyjson.com/data/products/6/4.jpg",
+        "https://i.dummyjson.com/data/products/6/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Chaqueta de Pesca ProShield",
+      "description": "Chaqueta diseñada para mantenerse seco y cómodo durante largas jornadas de pesca.",
+      "price": 79.99,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 35,
+      "brand": "ProAngler",
+      "category": "Ropa de Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/7/1.jpg",
+        "https://i.dummyjson.com/data/products/7/2.jpg",
+        "https://i.dummyjson.com/data/products/7/3.jpg",
+        "https://i.dummyjson.com/data/products/7/4.jpg",
+        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Botas de Pesca Waterproof",
+      "description": "Botas impermeables diseñadas para mantener tus pies secos durante la pesca en cualquier clima.",
+      "price": 49.99,
+      "discountPercentage": 10,
+      "rating": 4.4,
+      "stock": 60,
+      "brand": "DryFeet",
+      "category": "Calzado de Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/8/1.jpg",
+        "https://i.dummyjson.com/data/products/8/2.jpg",
+        "https://i.dummyjson.com/data/products/8/3.jpg",
+        "https://i.dummyjson.com/data/products/8/4.jpg",
+        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Silla Plegable para Pesca",
+      "description": "Silla portátil y cómoda ideal para largas jornadas de pesca.",
+      "price": 29.99,
+      "discountPercentage": 8.5,
+      "rating": 4.6,
+      "stock": 45,
+      "brand": "FishRest",
+      "category": "Equipo de Camping",
+      "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/9/1.jpg",
+        "https://i.dummyjson.com/data/products/9/2.jpg",
+        "https://i.dummyjson.com/data/products/9/3.jpg",
+        "https://i.dummyjson.com/data/products/9/4.jpg",
+        "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Linterna Recargable para Pesca Nocturna",
+      "description": "Linterna potente diseñada para iluminar tus noches de pesca.",
+      "price": 39.99,
+      "discountPercentage": 7,
+      "rating": 4.8,
+      "stock": 28,
+      "brand": "NightFisher",
+      "category": "Electrónica para Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/10/1.jpg",
+        "https://i.dummyjson.com/data/products/10/2.jpg",
+        "https://i.dummyjson.com/data/products/10/3.jpg",
+        "https://i.dummyjson.com/data/products/10/4.jpg",
+        "https://i.dummyjson.com/data/products/10/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Cuchillo de Pesca Premium",
+      "description": "Cuchillo afilado y resistente para limpiar y filetear pescado fácilmente.",
+      "price": 19.99,
+      "discountPercentage": 9,
+      "rating": 4.5,
+      "stock": 75,
+      "brand": "SharpCatch",
+      "category": "Herramientas y Accesorios",
+      "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/11/1.jpg",
+        "https://i.dummyjson.com/data/products/11/2.jpg",
+        "https://i.dummyjson.com/data/products/11/3.jpg",
+        "https://i.dummyjson.com/data/products/11/4.jpg",
+        "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Libro Guía de Pesca",
+      "description": "Guía completa con consejos y técnicas para mejorar tus habilidades de pesca.",
+      "price": 14.99,
+      "discountPercentage": 6,
+      "rating": 4.9,
+      "stock": 90,
+      "brand": "FishGuide",
+      "category": "Libros y Guías de Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/12/1.jpg",
+        "https://i.dummyjson.com/data/products/12/2.jpg",
+        "https://i.dummyjson.com/data/products/12/3.jpg",
+        "https://i.dummyjson.com/data/products/12/4.jpg",
+        "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Carpa de Camping Spacious",
+      "description": "Carpa espaciosa ideal para camping durante tus excursiones de pesca.",
+      "price": 149.99,
+      "discountPercentage": 11,
+      "rating": 4.6,
+      "stock": 15,
+      "brand": "CampComfort",
+      "category": "Equipo de Camping",
+      "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/13/1.jpg",
+        "https://i.dummyjson.com/data/products/13/2.jpg",
+        "https://i.dummyjson.com/data/products/13/3.jpg",
+        "https://i.dummyjson.com/data/products/13/4.jpg",
+        "https://i.dummyjson.com/data/products/13/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "GPS para Navegación",
+      "description": "Dispositivo de navegación GPS para explorar aguas desconocidas durante la pesca.",
+      "price": 79.99,
+      "discountPercentage": 9.5,
+      "rating": 4.8,
+      "stock": 40,
+      "brand": "NavMaster",
+      "category": "Electrónica para Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/14/1.jpg",
+        "https://i.dummyjson.com/data/products/14/2.jpg",
+        "https://i.dummyjson.com/data/products/14/3.jpg",
+        "https://i.dummyjson.com/data/products/14/4.jpg",
+        "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Gorra Resistente al Agua",
+      "description": "Gorra diseñada para protegerte de la lluvia durante tus aventuras de pesca.",
+      "price": 19.99,
+      "discountPercentage": 8,
+      "rating": 4.5,
+      "stock": 60,
+      "brand": "AquaShield",
+      "category": "Ropa de Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/15/1.jpg",
+        "https://i.dummyjson.com/data/products/15/2.jpg",
+        "https://i.dummyjson.com/data/products/15/3.jpg",
+        "https://i.dummyjson.com/data/products/15/4.jpg",
+        "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bolsa Térmica para Cebo",
+      "description": "Bolsa térmica diseñada para mantener el cebo fresco durante tus salidas de pesca.",
+      "price": 29.99,
+      "discountPercentage": 10,
+      "rating": 4.4,
+      "stock": 35,
+      "brand": "CoolBait",
+      "category": "Cajas y Bolsas para Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/16/1.jpg",
+        "https://i.dummyjson.com/data/products/16/2.jpg",
+        "https://i.dummyjson.com/data/products/16/3.jpg",
+        "https://i.dummyjson.com/data/products/16/4.jpg",
+        "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Chaleco Salvavidas FishingGuard",
+      "description": "Chaleco salvavidas diseñado específicamente para pescadores. ¡Pesca con seguridad!",
+      "price": 39.99,
+      "discountPercentage": 11.5,
+      "rating": 4.7,
+      "stock": 25,
+      "brand": "SafeFish",
+      "category": "Equipo de Seguridad",
+      "thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/17/1.jpg",
+        "https://i.dummyjson.com/data/products/17/2.jpg",
+        "https://i.dummyjson.com/data/products/17/3.jpg",
+        "https://i.dummyjson.com/data/products/17/4.jpg",
+        "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Mochila Resistente al Agua",
+      "description": "Mochila diseñada para proteger tus pertenencias de la lluvia durante tus expediciones de pesca.",
+      "price": 49.99,
+      "discountPercentage": 9,
+      "rating": 4.6,
+      "stock": 30,
+      "brand": "DryPack",
+      "category": "Cajas y Bolsas para Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/18/1.jpg",
+        "https://i.dummyjson.com/data/products/18/2.jpg",
+        "https://i.dummyjson.com/data/products/18/3.jpg",
+        "https://i.dummyjson.com/data/products/18/4.jpg",
+        "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Kit de Señuelos Variados",
+      "description": "Kit completo con una variedad de señuelos para enfrentar diferentes condiciones de pesca.",
+      "price": 34.99,
+      "discountPercentage": 7.5,
+      "rating": 4.4,
+      "stock": 50,
+      "brand": "LureMaster",
+      "category": "Señuelos",
+      "thumbnail": "https://i.dummyjson.com/data/products/19/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/19/1.jpg",
+        "https://i.dummyjson.com/data/products/19/2.jpg",
+        "https://i.dummyjson.com/data/products/19/3.jpg",
+        "https://i.dummyjson.com/data/products/19/4.jpg",
+        "https://i.dummyjson.com/data/products/19/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Anzuelos de Pesca con Cebo",
+      "description": "Anzuelos preinstalados con cebo, listos para usar y aumentar tus capturas.",
+      "price": 12.99,
+      "discountPercentage": 6,
+      "rating": 4.7,
+      "stock": 80,
+      "brand": "BaitHook",
+      "category": "Anzuelos y Accesorios",
+      "thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/20/1.jpg",
+        "https://i.dummyjson.com/data/products/20/2.jpg",
+        "https://i.dummyjson.com/data/products/20/3.jpg",
+        "https://i.dummyjson.com/data/products/20/4.jpg",
+        "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Caja de Almacenamiento Impermeable",
+      "description": "Caja resistente al agua para proteger tus objetos de valor durante la pesca.",
+      "price": 18.99,
+      "discountPercentage": 8,
+      "rating": 4.5,
+      "stock": 40,
+      "brand": "WaterGuard",
+      "category": "Cajas y Bolsas para Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/21/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/21/1.jpg",
+        "https://i.dummyjson.com/data/products/21/2.jpg",
+        "https://i.dummyjson.com/data/products/21/3.jpg",
+        "https://i.dummyjson.com/data/products/21/4.jpg",
+        "https://i.dummyjson.com/data/products/21/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Chaqueta Térmica para Pesca en Hielo",
+      "description": "Chaqueta con aislamiento térmico para mantener el calor durante la pesca en hielo.",
+      "price": 89.99,
+      "discountPercentage": 15,
+      "rating": 4.8,
+      "stock": 30,
+      "brand": "IceMaster",
+      "category": "Ropa de Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/22/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/22/1.jpg",
+        "https://i.dummyjson.com/data/products/22/2.jpg",
+        "https://i.dummyjson.com/data/products/22/3.jpg",
+        "https://i.dummyjson.com/data/products/22/4.jpg",
+        "https://i.dummyjson.com/data/products/22/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Botas de Pesca Resistentes al Frío",
+      "description": "Botas diseñadas para mantener tus pies calientes y secos durante la pesca en invierno.",
+      "price": 54.99,
+      "discountPercentage": 10.5,
+      "rating": 4.4,
+      "stock": 55,
+      "brand": "ArcticFeet",
+      "category": "Calzado de Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/23/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/23/1.jpg",
+        "https://i.dummyjson.com/data/products/23/2.jpg",
+        "https://i.dummyjson.com/data/products/23/3.jpg",
+        "https://i.dummyjson.com/data/products/23/4.jpg",
+        "https://i.dummyjson.com/data/products/23/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Luz Frontal LED para Pesca Nocturna",
+      "description": "Luz frontal ajustable para iluminar tu camino durante la pesca nocturna.",
+      "price": 19.99,
+      "discountPercentage": 7,
+      "rating": 4.6,
+      "stock": 65,
+      "brand": "NightBeam",
+      "category": "Electrónica para Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/24/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/24/1.jpg",
+        "https://i.dummyjson.com/data/products/24/2.jpg",
+        "https://i.dummyjson.com/data/products/24/3.jpg",
+        "https://i.dummyjson.com/data/products/24/4.jpg",
+        "https://i.dummyjson.com/data/products/24/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Alicate Multifunción para Pesca",
+      "description": "Alicate resistente con diversas funciones para facilitar la pesca y el manejo del cebo.",
+      "price": 29.99,
+      "discountPercentage": 9,
+      "rating": 4.7,
+      "stock": 35,
+      "brand": "MultiGrip",
+      "category": "Herramientas y Accesorios",
+      "thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/25/1.jpg",
+        "https://i.dummyjson.com/data/products/25/2.jpg",
+        "https://i.dummyjson.com/data/products/25/3.jpg",
+        "https://i.dummyjson.com/data/products/25/4.jpg",
+        "https://i.dummyjson.com/data/products/25/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Guantes Térmicos para Pesca",
+      "description": "Guantes con aislamiento térmico para mantener tus manos calientes durante la pesca en invierno.",
+      "price": 14.99,
+      "discountPercentage": 6.5,
+      "rating": 4.5,
+      "stock": 70,
+      "brand": "WarmHands",
+      "category": "Ropa de Pesca",
+      "thumbnail": "https://i.dummyjson.com/data/products/26/thumbnail.jpg",
+      "images": [
+      "https://i.dummyjson.com/data/products/26/1.jpg",
+      "https://i.dummyjson.com/data/products/26/2.jpg",
+      "https://i.dummyjson.com/data/products/26/3.jpg",
+      "https://i.dummyjson.com/data/products/26/4.jpg",
+      "https://i.dummyjson.com/data/products/26/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Caja Organizadora de Señuelos",
+    "description": "Caja con compartimentos ajustables para organizar y transportar tus señuelos de pesca.",
+    "price": 24.99,
+    "discountPercentage": 10,
+    "rating": 4.6,
+    "stock": 40,
+    "brand": "LureBox",
+    "category": "Cajas y Bolsas para Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/27/1.jpg",
+      "https://i.dummyjson.com/data/products/27/2.jpg",
+      "https://i.dummyjson.com/data/products/27/3.jpg",
+      "https://i.dummyjson.com/data/products/27/4.jpg",
+      "https://i.dummyjson.com/data/products/27/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Gafas Polarizadas para Pesca",
+    "description": "Gafas diseñadas para reducir el deslumbramiento y mejorar la visibilidad durante la pesca.",
+    "price": 34.99,
+    "discountPercentage": 8.5,
+    "rating": 4.7,
+    "stock": 55,
+    "brand": "PolarFish",
+    "category": "Accesorios para Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/28/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/28/1.jpg",
+      "https://i.dummyjson.com/data/products/28/2.jpg",
+      "https://i.dummyjson.com/data/products/28/3.jpg",
+      "https://i.dummyjson.com/data/products/28/4.jpg",
+      "https://i.dummyjson.com/data/products/28/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Sombrero con Protector de Cuello",
+    "description": "Sombrero con solapa protectora para mantener el sol fuera de tu cuello durante la pesca.",
+    "price": 19.99,
+    "discountPercentage": 7,
+    "rating": 4.5,
+    "stock": 65,
+    "brand": "SunGuard",
+    "category": "Ropa de Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/29/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/29/1.jpg",
+      "https://i.dummyjson.com/data/products/29/2.jpg",
+      "https://i.dummyjson.com/data/products/29/3.jpg",
+      "https://i.dummyjson.com/data/products/29/4.jpg",
+      "https://i.dummyjson.com/data/products/29/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Bolsa Impermeable para Dispositivos Electrónicos",
+    "description": "Bolsa diseñada para proteger tus dispositivos electrónicos durante la pesca.",
+    "price": 14.99,
+    "discountPercentage": 6,
+    "rating": 4.6,
+    "stock": 70,
+    "brand": "TechGuard",
+    "category": "Cajas y Bolsas para Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/30/1.jpg",
+      "https://i.dummyjson.com/data/products/30/2.jpg",
+      "https://i.dummyjson.com/data/products/30/3.jpg",
+      "https://i.dummyjson.com/data/products/30/4.jpg",
+      "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Silla Plegable con Soporte para Cañas",
+    "description": "Silla portátil con soporte incorporado para sostener tus cañas de pescar mientras esperas.",
+    "price": 29.99,
+    "discountPercentage": 9,
+    "rating": 4.7,
+    "stock": 35,
+    "brand": "FishSeat",
+    "category": "Equipo de Camping",
+    "thumbnail": "https://i.dummyjson.com/data/products/31/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/31/1.jpg",
+      "https://i.dummyjson.com/data/products/31/2.jpg",
+      "https://i.dummyjson.com/data/products/31/3.jpg",
+      "https://i.dummyjson.com/data/products/31/4.jpg",
+      "https://i.dummyjson.com/data/products/31/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Saco de Dormir para Pesca",
+    "description": "Saco de dormir diseñado para mantenerse cálido y cómodo durante las noches de pesca.",
+    "price": 49.99,
+    "discountPercentage": 10,
+    "rating": 4.6,
+    "stock": 30,
+    "brand": "SleepGuard",
+    "category": "Equipo de Camping",
+    "thumbnail": "https://i.dummyjson.com/data/products/32/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/32/1.jpg",
+      "https://i.dummyjson.com/data/products/32/2.jpg",
+      "https://i.dummyjson.com/data/products/32/3.jpg",
+      "https://i.dummyjson.com/data/products/32/4.jpg",
+      "https://i.dummyjson.com/data/products/32/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Batería Portátil para Dispositivos Electrónicos",
+    "description": "Batería recargable diseñada para mantener tus dispositivos electrónicos con energía durante la pesca.",
+    "price": 39.99,
+    "discountPercentage": 7.5,
+    "rating": 4.8,
+    "stock": 45,
+    "brand": "PowerFish",
+    "category": "Electrónica para Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/33/1.jpg",
+      "https://i.dummyjson.com/data/products/33/2.jpg",
+      "https://i.dummyjson.com/data/products/33/3.jpg",
+      "https://i.dummyjson.com/data/products/33/4.jpg",
+      "https://i.dummyjson.com/data/products/33/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Navaja Multiusos para Pesca",
+    "description": "Navaja versátil con diversas funciones para situaciones de pesca y supervivencia.",
+    "price": 19.99,
+    "discountPercentage": 8,
+    "rating": 4.5,
+    "stock": 60,
+    "brand": "FishKnife",
+    "category": "Herramientas y Accesorios",
+    "thumbnail": "https://i.dummyjson.com/data/products/34/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/34/1.jpg",
+      "https://i.dummyjson.com/data/products/34/2.jpg",
+      "https://i.dummyjson.com/data/products/34/3.jpg",
+      "https://i.dummyjson.com/data/products/34/4.jpg",
+      "https://i.dummyjson.com/data/products/34/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Caja de Almacenamiento para Accesorios",
+    "description": "Caja organizadora para guardar y transportar todos tus accesorios de pesca.",
+    "price": 24.99,
+    "discountPercentage": 9,
+    "rating": 4.7,
+    "stock": 50,
+    "brand": "GearBox",
+    "category": "Cajas y Bolsas para Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/35/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/35/1.jpg",
+      "https://i.dummyjson.com/data/products/35/2.jpg",
+      "https://i.dummyjson.com/data/products/35/3.jpg",
+      "https://i.dummyjson.com/data/products/35/4.jpg",
+      "https://i.dummyjson.com/data/products/35/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Gorro de Lana para Pesca",
+    "description": "Gorro con forro de lana para mantener la cabeza caliente durante la pesca en climas fríos.",
+    "price": 14.99,
+    "discountPercentage": 6,
+    "rating": 4.6,
+    "stock": 75,
+    "brand": "WoolGuard",
+    "category": "Ropa de Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/36/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/36/1.jpg",
+      "https://i.dummyjson.com/data/products/36/2.jpg",
+      "https://i.dummyjson.com/data/products/36/3.jpg",
+      "https://i.dummyjson.com/data/products/36/4.jpg",
+      "https://i.dummyjson.com/data/products/36/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Bolsa de Pesca con Compartimentos",
+    "description": "Bolsa con compartimentos ajustables para organizar tus accesorios de pesca de manera eficiente.",
+    "price": 29.99,
+    "discountPercentage": 8.5,
+    "rating": 4.5,
+    "stock": 55,
+    "brand": "FishMaster",
+    "category": "Cajas y Bolsas para Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/37/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/37/1.jpg",
+      "https://i.dummyjson.com/data/products/37/2.jpg",
+      "https://i.dummyjson.com/data/products/37/3.jpg",
+      "https://i.dummyjson.com/data/products/37/4.jpg",
+      "https://i.dummyjson.com/data/products/37/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Linterna Frontal Recargable",
+    "description": "Linterna frontal con batería recargable, perfecta para actividades nocturnas de pesca.",
+    "price": 34.99,
+    "discountPercentage": 7,
+    "rating": 4.8,
+    "stock": 65,
+    "brand": "BrightBeam",
+    "category": "Electrónica para Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/38/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/38/1.jpg",
+      "https://i.dummyjson.com/data/products/38/2.jpg",
+      "https://i.dummyjson.com/data/products/38/3.jpg",
+      "https://i.dummyjson.com/data/products/38/4.jpg",
+      "https://i.dummyjson.com/data/products/38/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Silla Plegable con Nevera",
+    "description": "Silla portátil con compartimento refrigerado, ideal para mantener tus bebidas frías durante la pesca.",
+    "price": 49.99,
+    "discountPercentage": 10,
+    "rating": 4.7,
+    "stock": 40,
+    "brand": "ChillSeat",
+    "category": "Equipo de Camping",
+    "thumbnail": "https://i.dummyjson.com/data/products/39/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/39/1.jpg",
+      "https://i.dummyjson.com/data/products/39/2.jpg",
+      "https://i.dummyjson.com/data/products/39/3.jpg",
+      "https://i.dummyjson.com/data/products/39/4.jpg",
+      "https://i.dummyjson.com/data/products/39/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Manta Térmica para Pesca",
+    "description": "Manta térmica diseñada para mantenerte abrigado durante las frías noches de pesca.",
+    "price": 19.99,
+    "discountPercentage": 8,
+    "rating": 4.6,
+    "stock": 50,
+    "brand": "ThermalWrap",
+    "category": "Equipo de Camping",
+    "thumbnail": "https://i.dummyjson.com/data/products/40/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/40/1.jpg",
+      "https://i.dummyjson.com/data/products/40/2.jpg",
+      "https://i.dummyjson.com/data/products/40/3.jpg",
+      "https://i.dummyjson.com/data/products/40/4.jpg",
+      "https://i.dummyjson.com/data/products/40/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Caja de Herramientas Resistente al Agua",
+    "description": "Caja de herramientas con sello hermético para proteger tus herramientas de pesca del agua.",
+    "price": 24.99,
+    "discountPercentage": 9.5,
+    "rating": 4.7,
+    "stock": 45,
+    "brand": "ToolGuard",
+    "category": "Herramientas y Accesorios",
+    "thumbnail": "https://i.dummyjson.com/data/products/41/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/41/1.jpg",
+      "https://i.dummyjson.com/data/products/41/2.jpg",
+      "https://i.dummyjson.com/data/products/41/3.jpg",
+      "https://i.dummyjson.com/data/products/41/4.jpg",
+      "https://i.dummyjson.com/data/products/41/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Chaleco Táctico para Pesca",
+    "description": "Chaleco con múltiples bolsillos y accesorios para llevar todo lo que necesitas en tu jornada de pesca.",
+    "price": 34.99,
+    "discountPercentage": 8.5,
+    "rating": 4.8,
+    "stock": 40,
+    "brand": "TacticalFish",
+    "category": "Ropa de Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/42/1.jpg",
+      "https://i.dummyjson.com/data/products/42/2.jpg",
+      "https://i.dummyjson.com/data/products/42/3.jpg",
+      "https://i.dummyjson.com/data/products/42/4.jpg",
+      "https://i.dummyjson.com/data/products/42/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Kit de Reparación de Cañas de Pescar",
+    "description": "Kit completo con herramientas y materiales para reparar tus cañas de pescar en caso de daños.",
+    "price": 19.99,
+    "discountPercentage": 7,
+    "rating": 4.6,
+    "stock": 60,
+    "brand": "RodRepair",
+    "category": "Cañas de Pescar",
+    "thumbnail": "https://i.dummyjson.com/data/products/43/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/43/1.jpg",
+      "https://i.dummyjson.com/data/products/43/2.jpg",
+      "https://i.dummyjson.com/data/products/43/3.jpg",
+      "https://i.dummyjson.com/data/products/43/4.jpg",
+      "https://i.dummyjson.com/data/products/43/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Cámara Subacuática HD",
+    "description": "Cámara resistente al agua para capturar momentos inolvidables bajo la superficie durante la pesca.",
+    "price": 89.99,
+    "discountPercentage": 10,
+    "rating": 4.8,
+    "stock": 30,
+    "brand": "AquaCam",
+    "category": "Electrónica para Pesca",
+    "thumbnail": "https://i.dummyjson.com/data/products/44/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/44/1.jpg",
+      "https://i.dummyjson.com/data/products/44/2.jpg",
+      "https://i.dummyjson.com/data/products/44/3.jpg",
+      "https://i.dummyjson.com/data/products/44/4.jpg",
+      "https://i.dummyjson.com/data/products/44/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Red de Pesca Profesional",
+    "description": "Red duradera y resistente para ayudarte en la captura de grandes especies durante la pesca.",
+    "price": 49.99,
+    "discountPercentage": 9,
+    "rating": 4.7,
+    "stock": 35,
+    "brand": "ProNet",
+    "category": "Herramientas y Accesorios",
+    "thumbnail": "https://i.dummyjson.com/data/products/45/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/45/1.jpg",
+      "https://i.dummyjson.com/data/products/45/2.jpg",
+      "https://i.dummyjson.com/data/products/45/3.jpg",
+      "https://i.dummyjson.com/data/products/45/4.jpg",
+      "https://i.dummyjson.com/data/products/45/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Máquina de Atar Nudos Automática",
+    "description": "Máquina automática para atar nudos de pesca de manera rápida y eficiente.",
+    "price": 39.99,
+    "discountPercentage": 8.5,
+    "rating": 4.6,
+    "stock": 40,
+    "brand": "KnotMaster",
+    "category": "Herramientas y Accesorios",
+    "thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/46/1.jpg",
+      "https://i.dummyjson.com/data/products/46/2.jpg",
+      "https://i.dummyjson.com/data/products/46/3.jpg",
+      "https://i.dummyjson.com/data/products/46/4.jpg",
+      "https://i.dummyjson.com/data/products/46/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Caña de Pescar de Carbono",
+    "description": "Caña ligera y resistente hecha de carbono para mejorar tu experiencia de pesca.",
+    "price": 79.99,
+    "discountPercentage": 9.5,
+    "rating": 4.8,
+    "stock": 30,
+    "brand": "CarbonRod",
+    "category": "Cañas de Pescar",
+    "thumbnail": "https://i.dummyjson.com/data/products/47/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/47/1.jpg",
+      "https://i.dummyjson.com/data/products/47/2.jpg",
+      "https://i.dummyjson.com/data/products/47/3.jpg",
+      "https://i.dummyjson.com/data/products/47/4.jpg",
+      "https://i.dummyjson.com/data/products/47/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Silla Backpack para Pesca",
+    "description": "Silla con mochila integrada, perfecta para llevar tus pertenencias mientras encuentras el mejor lugar de pesca.",
+    "price": 44.99,
+    "discountPercentage": 8,
+    "rating": 4.7,
+    "stock": 35,
+    "brand": "BackFish",
+    "category": "Equipo de Camping",
+    "thumbnail": "https://i.dummyjson.com/data/products/48/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/48/1.jpg",
+      "https://i.dummyjson.com/data/products/48/2.jpg",
+      "https://i.dummyjson.com/data/products/48/3.jpg",
+      "https://i.dummyjson.com/data/products/48/4.jpg",
+      "https://i.dummyjson.com/data/products/48/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Caja de Moscas para Pesca con Mosca",
+    "description": "Caja con una variedad de moscas artificiales para la pesca con mosca, organizadas y listas para usar.",
+    "price": 28.99,
+    "discountPercentage": 7.5,
+    "rating": 4.6,
+    "stock": 50,
+    "brand": "FlyBox",
+    "category": "Señuelos",
+    "thumbnail": "https://i.dummyjson.com/data/products/49/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/49/1.jpg",
+      "https://i.dummyjson.com/data/products/49/2.jpg",
+      "https://i.dummyjson.com/data/products/49/3.jpg",
+      "https://i.dummyjson.com/data/products/49/4.jpg",
+      "https://i.dummyjson.com/data/products/49/thumbnail.jpg"
+    ]
+  }
+  
+  ]
+  
