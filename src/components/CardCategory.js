@@ -3,9 +3,9 @@ import React from 'react';
 import colors from '../utils/global/colors'
 import fonts from '../utils/global/fonts';
 
-const CardCategory = ({ item, selectedCategoryState }) => {
+const CardCategory = ({item, navigation}) => {
   return (
-    <Pressable onPress={()=>selectedCategoryState(item)}>
+    <Pressable onPress={()=>navigation.navigate("Categorias",{categorySelected:item})}>
         <View style={styles.card}>
           <Text style={styles.categoryText}>{item}</Text>
         </View>

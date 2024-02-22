@@ -3,13 +3,13 @@ import React from 'react'
 import categories from '../utils/data/categories.json'
 import CardCategory from './CardCategory'
 
-const Categories = ({selectedCategoryState}) => {
+const Categories = ({navigation}) => {
   return (
     <FlatList 
         data={categories}
         keyExtractor={(item) => item} 
         renderItem={({item}) => (
-          <CardCategory item={item} selectedCategoryState ={selectedCategoryState}/>
+          <CardCategory item={item} navigation={navigation}/>
         )}
       />
   )
