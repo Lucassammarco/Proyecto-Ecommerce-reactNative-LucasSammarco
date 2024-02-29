@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Image, StyleSheet, Text, View, Pressable } from 'react-native';
 import products from '../utils/data/products.json';
+import { UseDispatch, useDispatch } from 'react-redux';
+import { addCartItem } from '../feactures/cart/cartSlice';
 
 const ProductDetail = ({route}) => {
 
   const {productoId} = route.params
+  const dispatch = useDispatch()
 
   const [product, setProduct] = useState({});
   const [quantity, setQuantity] = useState(1);
@@ -49,7 +52,7 @@ const ProductDetail = ({route}) => {
             </Pressable>
           </View>
 
-          <Pressable onPress={handleAddToCart} style={styles.addToCartButton}>
+          <Pressable onPress={() =>dispatch(addCartItem(product))} style={styles.addToCartButton}>
             <Text style={styles.buttonText}>Agregar al carrito</Text>
           </Pressable>
         </View>
