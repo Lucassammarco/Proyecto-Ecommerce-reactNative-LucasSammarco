@@ -1,14 +1,14 @@
 import { View, Text, StyleSheet } from 'react-native';
 import React from 'react';
 
-const OrdenItem = ({ orden }) => {
+const OrdenItem = ({ order }) => {
   return (
     <View style={styles.container}>
       <View style={styles.detailsContainer}>
         <Text style={styles.dateText}>
-          {new Date(orden.createAt).toLocaleDateString()}
+          {order.createdAt}
         </Text>
-        <Text style={styles.titleText}>$ {orden.total}</Text>
+        <Text style={styles.titleText}>$ {order.total}</Text>
       </View>
     </View>
   );

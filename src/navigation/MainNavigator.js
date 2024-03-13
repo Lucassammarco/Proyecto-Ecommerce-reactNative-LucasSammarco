@@ -1,54 +1,26 @@
 import { NavigationContainer } from '@react-navigation/native';
-import ShopStack from './ShopStack';
-import { StyleSheet, View } from 'react-native';
-import OrdenesStack from './OrdenesStack';
-import CartStack from './CartStack';
+import TabNavigation from './TabNavigation';
+import { useEffect, useState } from 'react';
+import AuthStack from './AuthStack';
+import { useSelector } from 'react-redux';
+import Profile from '../screens/Profile'
+import ProfileStack from './ProfileStack';
 
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import TabIcon from '../components/TabIcon';
 
-const Tab = createBottomTabNavigator();
 
 const MainNavigator = () => {
+
+    const user = useSelector((state) => state.auth)
+    useEffect(()=>{
+        console.log(user)
+    },[user])
+
     return (
         <NavigationContainer>
-            <Tab.Navigator initialRouteName='ShopStack'
-            screenOptions={{
-                headerShown: false,
-                tabBarShowLabel: false,
-                tabBarStyle: styles.tabbar,
-                
-            }}>
-                <Tab.Screen name="Shop" component={ShopStack}  options={{
-                    tabBarIcon: () => {
-                        return <TabIcon title={'Productos'} name={'home'}/>
-                    }
-                }}/>
-                <Tab.Screen name="Ordenes" component={OrdenesStack} options={{
-                    tabBarIcon: () => {
-                        return <TabIcon title={'Ordenes'} name={'list'}/>
-                    }
-                }}/>
-                <Tab.Screen name="CartStack" component={CartStack} options={{
-                    tabBarIcon: () => {
-                        return <TabIcon title={'Carrito'} name={'shopping-cart'}/>
-                    }
-                }}/>
-            </Tab.Navigator>
+          {user.idToken ? <TabNavigation/> : <AuthStack/>}
         </NavigationContainer>
     )
 }
 
 export default MainNavigator
 
-const styles = StyleSheet.create({
-    tabbar:{
-        backgroundColor: '#ffffff', 
-        borderTopWidth: 1, 
-        borderTopColor: '#dddddd', 
-        height: 70, 
-        justifyContent: 'center', 
-        alignItems: 'center',
-        position:'absolute',
-    },
-})
