@@ -5,16 +5,17 @@ import CardCategory from './CardCategory'
 
 const Categories = ({navigation}) => {
   
-const {data:categories} = useGetCategoriesQuery()
+  const {data:categories} = useGetCategoriesQuery()
 
   return (
     <FlatList 
-        data={categories}
-        keyExtractor={(item) => item} 
-        renderItem={({item}) => (
-          <CardCategory item={item} navigation={navigation}/>
-        )}
-      />
+      data={categories}
+      keyExtractor={(item) => item} 
+      renderItem={({item}) => (
+        <CardCategory item={item} navigation={navigation}/>
+      )}
+      contentContainerStyle={{ paddingBottom: 140 }} 
+    />
   )
 }
 

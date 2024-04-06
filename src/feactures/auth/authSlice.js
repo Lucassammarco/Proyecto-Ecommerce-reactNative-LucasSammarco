@@ -1,10 +1,11 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     email: "",
     idToken: "",
-    localId:"",
-}
+    localId: "",
+    userName: "",
+};
 
 export const authSlice = createSlice({
     name: "auth",
@@ -14,10 +15,20 @@ export const authSlice = createSlice({
             state.email = action.payload.email;
             state.idToken = action.payload.idToken;
             state.localId = action.payload.localId;
+            state.userName = action.payload.userName;
+        },
+        clearUser: (state) => {
+            state.email = "";
+            state.idToken = "";
+            state.localId = "";
+            state.userName= "";
+        },
+        setUsername: (state, action) => {
+            state.userName = action.payload;
         }
     }
-})
+});
 
-export const { setUser } = authSlice.actions
+export const { setUser, clearUser, setUsername } = authSlice.actions;
 
-export default authSlice.reducer
+export default authSlice.reducer;

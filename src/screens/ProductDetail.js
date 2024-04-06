@@ -1,21 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import { Image, StyleSheet, Text, View, Pressable } from 'react-native';
-import products from '../utils/data/products.json';
-import { UseDispatch, useDispatch } from 'react-redux';
+import { Image, StyleSheet, Text, View, Pressable, ActivityIndicator } from 'react-native';
+import { useGetProductQuery } from '../app/services/shop';
+import { useDispatch } from 'react-redux';
 import { addCartItem } from '../feactures/cart/cartSlice';
+import AlertModal from '../components/AlertModal';
+import AddButton from '../components/AddButton';
 
 const ProductDetail = ({route}) => {
+  const {productoId} = route.params;
+  const dispatch = useDispatch();
 
-  const {productoId} = route.params
-  const dispatch = useDispatch()
-
-  const [product, setProduct] = useState({});
   const [quantity, setQuantity] = useState(1);
-
-  useEffect(() => {
-    const producto = products.find((product) => product.id === productoId);
-    setProduct(producto);
-  }, [productoId]);
+  const [showModal, setShowModal] = useState(false);
+  const [modalMessage, setModalMessage] = useState('');
+  
+  const { data: product, isLoading, isError } = useGetProductQuery(productoId);
 
   const handleIncreaseQuantity = () => {
     setQuantity(quantity + 1);
@@ -28,13 +27,20 @@ const ProductDetail = ({route}) => {
   };
 
   const handleAddToCart = () => {
-    
-    console.log(`Agregado al carrito: ${quantity} unidades de ${product.title}`);
+    if (product) {
+      dispatch(addCartItem({ ...product, quantity }));
+      setModalMessage('Producto agregado al carrito con éxito');
+      setShowModal(true);
+    }
   };
 
   return (
-    <View>
-      {product && (
+    <View style={styles.container}>
+      {isLoading ? (
+        <ActivityIndicator style={styles.loader} size="large" color="#0000ff" />
+      ) : isError ? (
+        <Text>Error al cargar el producto</Text>
+      ) : (
         <View>
           <Image style={styles.img} source={{ uri: product.thumbnail }} />
           <Text style={styles.title}>{product.title}</Text>
@@ -51,17 +57,28 @@ const ProductDetail = ({route}) => {
               <Text style={styles.buttonText}>+</Text>
             </Pressable>
           </View>
-
-          <Pressable onPress={() =>dispatch(addCartItem(product))} style={styles.addToCartButton}>
-            <Text style={styles.buttonText}>Agregar al carrito</Text>
-          </Pressable>
+          <AddButton title={'Agregar al Carrito'} onPress={handleAddToCart} />
         </View>
       )}
+      
+      <AlertModal
+        visible={showModal}
+        message={modalMessage}
+        onClose={() => setShowModal(false)}
+      />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  loader: {
+    marginBottom: 20,
+  },
   img: {
     width: 200,
     height: 200,

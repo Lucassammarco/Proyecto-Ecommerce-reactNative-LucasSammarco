@@ -23,7 +23,7 @@ const TabNavigation = () => {
                     return <TabIcon title={'Productos'} name={'home'} />
                 }
             }} />
-            <Tab.Screen name="Ordenes" component={OrdenesStack} options={{
+            <Tab.Screen name="Orden" component={OrdenesStack} options={{
                 tabBarIcon: () => {
                     return <TabIcon title={'Ordenes'} name={'list'} />
                 }
@@ -53,5 +53,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center', 
         alignItems: 'center',
         position:'absolute',
+        
     },
 })

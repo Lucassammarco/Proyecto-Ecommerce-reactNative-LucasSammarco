@@ -4,6 +4,7 @@ import { useLoginMutation } from '../app/services/auth';
 import { useDispatch } from 'react-redux';
 import { setUser } from '../feactures/auth/authSlice';
 import { loginSchema } from '../utils/validations/authSchema';
+import { deleteSession, insertSession } from '../utils/db';
 
 const Login = ({ navigation }) => {
   const dispatch = useDispatch();
@@ -17,6 +18,8 @@ const Login = ({ navigation }) => {
     try {
       loginSchema.validateSync({ email, password });
       const response = await triggerLogin({ email, password});
+      deleteSession()
+      //insertSession(response)
       if (response.data && response.data.email && response.data.idToken && response.data.localId) {
         dispatch(setUser({ email: response.data.email, idToken: response.data.idToken, localId: response.data.localId }));
       } else {

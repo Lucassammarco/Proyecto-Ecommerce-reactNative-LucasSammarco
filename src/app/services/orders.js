@@ -1,5 +1,4 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-import { object } from 'yup'
 
 export const ordersApi = createApi({
     reducerPath: "ordersApi",
@@ -17,6 +16,7 @@ export const ordersApi = createApi({
         getOrders:builder.query({
             query:(localId) => `/orders/${localId}.json`,
             transformResponse:(response)=> {
+                if (!response) return [];
                 const data = Object.entries(response).map((item)=>{
                     return {
                         id:item[0],
@@ -30,4 +30,4 @@ export const ordersApi = createApi({
     })
 })
 
-export const {usePostOrderMutation,useGetOrdersQuery} = ordersApi
+export const { usePostOrderMutation, useGetOrdersQuery } = ordersApi

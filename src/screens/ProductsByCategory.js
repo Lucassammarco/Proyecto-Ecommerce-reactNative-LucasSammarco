@@ -33,6 +33,7 @@ const ProductsByCategory = ({route, navigation}) => {
               data={productsFiltered}
               keyExtractor={item => item.id}
               renderItem={({item}) => <ProducByCategory navigation={navigation} item={item} />}
+              contentContainerStyle={{ paddingBottom: 80 }} 
             />
         </>
   )

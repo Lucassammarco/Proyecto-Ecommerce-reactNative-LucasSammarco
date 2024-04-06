@@ -4,10 +4,10 @@
     "slug": "MiProyecto",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/image/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/image/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/image/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lucas_sammarco.MiProyecto"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/image/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e20ac78e-fcd6-498a-be03-e2ecc64497cb"
+      }
     }
   }
 }

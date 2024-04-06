@@ -16,8 +16,15 @@ export const shopApi = createApi({
         }),
         getProduct:builder.query({
             query: (id) => `/products/${id}.json`
-        })
+        }),
+        updateProductStock: builder.mutation({
+            query: ({ productId, quantity }) => ({
+                url: `/products/${productId}/stock.json`,
+                method: 'PATCH',
+                body: { stock: quantity }
+            })
+        }),
     })
 })
 
-export const {useGetProductsByCategoryQuery, useGetCategoriesQuery, useGetProductQuery} = shopApi
+export const {useGetProductsByCategoryQuery, useGetCategoriesQuery, useGetProductQuery, updateProductStock} = shopApi

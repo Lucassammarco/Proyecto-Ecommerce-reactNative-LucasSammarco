@@ -4,6 +4,10 @@ import { fontsColection } from './src/utils/global/fonts'
 import MainNavigator from './src/navigation/MainNavigator'
 import { store } from './src/app/store'
 import { Provider } from 'react-redux'
+import { init } from './src/utils/db'
+
+
+init();
 
 const App = () => {
 

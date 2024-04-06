@@ -1,28 +1,43 @@
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
-import React from 'react';
-import { useSelector,useDispatch} from 'react-redux';
+import React, { useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import CartItem from '../components/CartItem';
 import { usePostOrderMutation } from '../app/services/orders';
-import {deleteCart} from '../feactures/cart/cartSlice'
+import AlertModal from '../components/AlertModal';
+import { deleteCart } from '../feactures/cart/cartSlice';
 
-const Cart = ({navigation}) => {
-
-  const cart = useSelector((state)=> state.cart)
-  const localId = useSelector((state)=> state.auth.localId)
-  const[triggerAddOrder] = usePostOrderMutation()
-  const dispatch = useDispatch()
-
+const Cart = ({ navigation }) => {
+  const cart = useSelector((state) => state.cart);
+  const localId = useSelector((state) => state.auth.localId);
+  const [triggerAddOrder] = usePostOrderMutation();
+  const dispatch = useDispatch();
+  
+  const [modalVisible, setModalVisible] = useState(false);
+  const [message, setMessage] = useState('');
 
   const handlerAddOrder = async () => {
-    const createdAt = new Date(). toLocaleString()
+    const createdAt = new Date().toLocaleString();
     const order = {
       createdAt,
-      ...cart
+      ...cart,
+    };
+
+    try {
+      await triggerAddOrder({ localId, order });
+      dispatch(deleteCart());
+      setMessage('¡La orden se ha enviado con exito!');
+      setModalVisible(true);
+    } catch (error) {
+      console.error('Error al enviar la orden:', error);
+      setMessage('Ha ocurrido un error al enviar la orden. Por favor, intentalo de nuevo.');
+      setModalVisible(true);
     }
-   await triggerAddOrder({localId,order})
-   dispatch(deleteCart())
-   navigation.navigate("Ordenes")
-  }
+  };
+
+  const handleCloseModal = () => {
+    setModalVisible(false);
+    navigation.navigate('Orden');
+  };
 
   return (
     <View style={styles.container}>
@@ -31,11 +46,21 @@ const Cart = ({navigation}) => {
         renderItem={({ item }) => <CartItem item={item} />}
       />
       <View style={styles.footer}>
-        <Pressable style={styles.confirmButton} onPress={handlerAddOrder}>
+        <Pressable
+          style={[styles.confirmButton, cart.items.length === 0 && styles.disabledButton]}
+          onPress={handlerAddOrder}
+          disabled={cart.items.length === 0}
+        >
           <Text style={styles.confirmButtonText}>Confirmar</Text>
         </Pressable>
         <Text style={styles.totalText}>Total: $ {cart.total}</Text>
       </View>
+
+      <AlertModal
+        visible={modalVisible}
+        message={message}
+        onClose={handleCloseModal}
+      />
     </View>
   );
 };
@@ -53,8 +78,8 @@ const styles = StyleSheet.create({
     marginTop: 16,
     paddingVertical: 16,
     alignItems: 'flex-end',
-    marginBottom:50,
-    flexDirection:"row",
+    marginBottom: 50,
+    flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
   },
@@ -74,5 +99,8 @@ const styles = StyleSheet.create({
   totalText: {
     fontSize: 18,
     fontWeight: 'bold',
+  },
+  disabledButton: {
+    backgroundColor: '#dddddd',
   },
 });
