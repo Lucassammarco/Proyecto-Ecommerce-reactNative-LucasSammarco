@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Pressable } from 'react-native';
+import { View, Text, StyleSheet, Pressable,Platform ,StatusBar } from 'react-native';
 import React, { useState } from 'react';
 import colors from '../utils/global/colors';
 import fonts from '../utils/global/fonts';
@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     borderBottomWidth: 2,
     borderBottomColor: 'black',
+    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
   },
   text: {
     color: '#fff',

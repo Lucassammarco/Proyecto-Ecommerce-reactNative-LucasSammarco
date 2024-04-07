@@ -1,12 +1,9 @@
 import { NavigationContainer } from '@react-navigation/native';
 import TabNavigation from './TabNavigation';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import AuthStack from './AuthStack';
 import { useDispatch, useSelector } from 'react-redux';
-import Profile from '../screens/Profile'
-import ProfileStack from './ProfileStack';
 import { fetchSession } from '../utils/db';
-import { UseDispatch  } from 'react-redux';
 import { setUser } from '../feactures/auth/authSlice';
 
 
@@ -27,9 +24,7 @@ const MainNavigator = () => {
         },[])
 
     
-    useEffect(()=>{
-        console.log(user)
-    },[user])
+    
 
     return (
         <NavigationContainer>

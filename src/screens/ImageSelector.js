@@ -32,7 +32,7 @@ const ImageSelector = ({ navigation }) => {
     }
 
     const confirmImage = () => {
-        console.log("guardar imagen")
+        
         triggerImage({ localId, image });
         navigation.goBack()
     };
